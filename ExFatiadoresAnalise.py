@@ -1,0 +1,6 @@
+frase = str(input('Digite a frase: ')).strip().upper()
+frase = frase.split()
+frase = ''.join(frase)
+frase1 = len(frase)
+frase2 = frase.count('O')
+print(frase, frase[::-1], frase2)
